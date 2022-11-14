@@ -1,7 +1,7 @@
 variable "Account_EMail" {
   description = "New e-mail address, not currently in AWS. root for sandbox account"
   type = string
-  default = "FingleFactor@yahoo.com"
+  default = "Gamorra@ymail.com"
 }
 
 variable "SSO_EMail" {
