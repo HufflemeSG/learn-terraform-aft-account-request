@@ -26,11 +26,11 @@ module "sandbox" {
   account_customizations_name = "sandbox"
 }
 
-module "sanderbox" {
+module "sandierbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "${var.Account_EMaili2}"
+    AccountEmail              = "${var.Account_EMail2}"
     AccountName               = "sandierbox-aft"
     ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "${var.SSO_EMail}"
